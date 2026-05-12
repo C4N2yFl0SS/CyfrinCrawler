@@ -1,0 +1,25 @@
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║           BLACKWIDOW CRAWLER v3.0 — Requirements               ║
+# ║           Author: Jannatul Islam Bushra                         ║
+# ║           https://github.com/jannatulislam                      ║
+# ╚══════════════════════════════════════════════════════════════════╝
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Python 3.8+ required
+
+# ── Core (required) ────────────────────────────────────────────────
+aiohttp>=3.9.0          # Async HTTP client for concurrent crawling
+aiofiles>=23.2.1        # Async file I/O for non-blocking file downloads
+
+# ── HTML Parsing (required) ────────────────────────────────────────
+beautifulsoup4>=4.12.0  # HTML/XML parser for link extraction
+
+# ── Fast Parser Backend (optional, strongly recommended) ───────────
+lxml>=5.1.0             # High-performance C-based XML/HTML parser
+                        # Falls back to html.parser if not installed
+
+# ── Terminal UI (optional, strongly recommended) ───────────────────
+rich>=13.7.0            # Live dashboard, colored output, tables/panels
+                        # Falls back to plain text output if not installed

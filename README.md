@@ -134,7 +134,7 @@ input    async workers    intel engine     output
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/C4N2yFl0SS/cyfrin-crawler.git
+git clone https://github.com/C4N2yFl0SS/CyfrinCrawler.git
 cd cyfrin-crawler
 
 # 2. (Recommended) Create a virtual environment

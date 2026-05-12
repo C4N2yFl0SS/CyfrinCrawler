@@ -190,21 +190,21 @@ Enter your target domain — no flags, no config files. CYFRIN CRAWLER handles e
 The **live dashboard** shows real-time progress:
 
 ```
-╭──────────────────── 🕷 CYFRIN CRAWLER v2.0 → target.com ────────────────────╮
-│ ⏱  Elapsed          00:02:14  │  ⚡ Recent URLs                                 │
-│ 📄 Pages Crawled    1,247     │  200  https://target.com/api/v1/users           │
-│ ❌ Failed           23        │  403  https://target.com/admin                  │
-│ 📁 Files Downloaded 89        │  200  https://target.com/.env                   │
-│ 💾 Data             12.4 MB   │  ...                                             │
-│ 🌐 URLs Visited     1,412     │  🚨 Findings                                     │
-│ 📊 Depth Reached    7         │  CRITICAL [Exposed Files] Exposed .env File     │
-│ 🔁 Req/Sec          8.3       │  HIGH [Admin/Login] Admin Panel                 │
-│ 🕷  Workers         50        │  CRITICAL [Credentials] Hardcoded Password      │
-│ ─────────────────────────     │  ...                                             │
-│ 🔴 CRITICAL         3         │                                                  │
-│ 🟠 HIGH             11        │                                                  │
-│ 🔎 Total Findings  14         │                                                  │
-╰─────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────── 🕷 CYFRIN CRAWLER v2.0 → target.com ──────────────────────╮
+│ ⏱  Elapsed          00:02:14  │  ⚡ Recent URLs                              │
+│ 📄 Pages Crawled    1,247     │  200  https://target.com/api/v1/users         │
+│ ❌ Failed           23        │  403  https://target.com/admin                │
+│ 📁 Files Downloaded 89        │  200  https://target.com/.env                 │
+│ 💾 Data             12.4 MB   │  ...                                          │
+│ 🌐 URLs Visited     1,412     │  🚨 Findings                                  │
+│ 📊 Depth Reached    7         │  CRITICAL [Exposed Files] Exposed .env File   │
+│ 🔁 Req/Sec          8.3       │  HIGH [Admin/Login] Admin Panel               │
+│ 🕷  Workers         50         │  CRITICAL [Credentials] Hardcoded Password    │
+│ ─────────────────────────      │  ...                                          │
+│ 🔴 CRITICAL         3         │                                                │
+│ 🟠 HIGH             11        │                                                │
+│ 🔎 Total Findings  14         │                                                │
+╰────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 ---
